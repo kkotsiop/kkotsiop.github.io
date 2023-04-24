@@ -8,11 +8,18 @@
         div {
             text-align: center;
         }
-        /* .floatleft {
-            float:left;
-        } */
-        .floatright {
-            float:right;
+        .menu {
+            width: 25%;
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
+        }
+
+        .main {
+            width: 75%;
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
         }
         h3 {
             text-decoration-line: underline;
@@ -63,12 +70,23 @@
         </p>
     </div>
     <h3>Education</h3>
-    <ul>
-        <li><em>Ph.D. in Mathematics</em>, University of Massachusetts Amherst <span class="floatright">2013 - 2018</span></li>
-        <li><em>M.Sc. in Mathematics</em>, University of Massachusetts Amherst <span class="floatright">2013 - 2015</span></li>
-        <li><em>Non-degree graduate studies</em>, University of Crete, Greece <span class="floatright">2012 - 2013</span></li>
-        <li><em>B.Sc. in Mathematics</em>, University of Crete, Greece <span class="floatright">2008 - 2012</span></li>
-    </ul>
+    <div class="menu">
+        <ul>
+            <li><em>Ph.D. in Mathematics</em>, University of Massachusetts Amherst</li>
+            <li><em>M.Sc. in Mathematics</em>, University of Massachusetts Amherst</li>
+            <li><em>Non-degree graduate studies</em>, University of Crete, Greece</li>
+            <li><em>B.Sc. in Mathematics</em>, University of Crete, Greece</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <ul>
+            <li>2013 - 2018</li>
+            <li>2013 - 2015</li>
+            <li>2012 - 2013</li>
+            <li>2008 - 2012</li>
+        </ul>
+    </div>
 
     <hr>
 
